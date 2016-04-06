@@ -14,6 +14,9 @@
 		68816ADD1BBB5406000569CE /* JournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68816ADC1BBB5406000569CE /* JournalTests.swift */; };
 		68816AE81BBB5406000569CE /* JournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68816AE71BBB5406000569CE /* JournalUITests.swift */; };
 		BC32669E1CB5AF4A002F496C /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32669D1CB5AF4A002F496C /* Entry.swift */; };
+		BC3266A01CB5B0C0002F496C /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32669F1CB5B0C0002F496C /* EntryController.swift */; };
+		BC3266A21CB5B1ED002F496C /* EntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3266A11CB5B1ED002F496C /* EntryListTableViewController.swift */; };
+		BC3266A41CB5BAF0002F496C /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3266A31CB5BAF0002F496C /* EntryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		68816AE71BBB5406000569CE /* JournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalUITests.swift; sourceTree = "<group>"; };
 		68816AE91BBB5406000569CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC32669D1CB5AF4A002F496C /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		BC32669F1CB5B0C0002F496C /* EntryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		BC3266A11CB5B1ED002F496C /* EntryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryListTableViewController.swift; sourceTree = "<group>"; };
+		BC3266A31CB5BAF0002F496C /* EntryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,7 @@
 		BC32669A1CB5ABBD002F496C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC32669F1CB5B0C0002F496C /* EntryController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -137,6 +144,8 @@
 		BC32669B1CB5ABC4002F496C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BC3266A11CB5B1ED002F496C /* EntryListTableViewController.swift */,
+				BC3266A31CB5BAF0002F496C /* EntryDetailViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -279,7 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3266A01CB5B0C0002F496C /* EntryController.swift in Sources */,
 				BC32669E1CB5AF4A002F496C /* Entry.swift in Sources */,
+				BC3266A21CB5B1ED002F496C /* EntryListTableViewController.swift in Sources */,
+				BC3266A41CB5BAF0002F496C /* EntryDetailViewController.swift in Sources */,
 				68816AC81BBB5405000569CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
