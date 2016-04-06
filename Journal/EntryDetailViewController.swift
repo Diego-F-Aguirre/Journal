@@ -41,6 +41,7 @@ extension EntryDetailViewController {
     
     @IBAction func saveButtonPressed(sender: AnyObject) {
         if titleTextField.text != "" && bodyTextView.text != "" {
+            EntryController.sharedInstance.createEntry(titleTextField.text!, body: bodyTextView.text, date: nil)
             navigationController?.popViewControllerAnimated(true)
         }
     }
